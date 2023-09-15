@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* navbar styling */
+nav{
+    background-color: black;
+    height: 90px;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 20px;
+    margin: 10px 10px;  
+}
+
+nav a{
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     font-weight: bolder;
+     font-weight: 600;
+}
+
+/* banner image */
+
+.image{
+    position: relative;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5192953.jpg&f=1&nofb=1&ipt=6877b615a6200a51325e5b0ed073b8495c5de9db90d0ad1169936bcf088a89ed&ipo=images');
+    height: 700px;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.writting{
+    position: absolute;
+    top: 300px;
+    left:190px;
+}
+
+.writting h1{
+    font-size: 70px;
+}
+
+.writting p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* About Me */
+
+.about{
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.details{
+    padding: 30px;
+}
+
+.photo{
+    margin-top: 50px;
+    padding-left:240px;
+
+}
+
+.photo img{
+    width:300px;
+    height:auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.details{
+    height: 400px;
+    width: 600px;;
+}
+
+.details h1{
+    margin-bottom: 20px;
+    margin-top: -25px;
+    font-weight:bold;
+    font-size: 40px;
+}
+
+.details p{
+    margin-top:-10px
+}
+
+/* Gallery Projects */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.gallery img{
+    height:300px;
+    width:500px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 70px;
+    opacity: 0.6;
+}
+
+.elon{
+
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+/* Services */
+
+.column{
+    display: flex;
+    margin: 30px;
+    padding: 70px;
+    justify-items: center;
+    padding-left: 130px;
+}
+
+.row{
+    width:250px;
+    height:470px;
+    margin: 20px;
+}
+
+.pic{
+    height:150px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.pic1{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F3840%2F1*Mcqz8eQHBLxojRDnGgv67w.jpeg&f=1&nofb=1&ipt=4c943305ad8e90685c069dd29bf5a3e62c594a73e0f036610d324f2990e7174c&ipo=images');
+    background-size: cover;
+    background-position: center;
+}
+
+.pic2{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.als.org%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fhero_image%2Fpublic%2Fblog_files%2Fbrain-computer-interface.png%3Fh%3Ddf9c535c%26itok%3DHIkbKGiF&f=1&nofb=1&ipt=c9e4542694f42d8af3237966d419d1e3734a5b05a26459e33ccd0be40dd61a30&ipo=images');
+    background-size: cover;
+    background-position: center;
+}
+
+.pic3{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjobs.assystem.com%2Fwp-content%2Fuploads%2F2019%2F06%2Fhyperloop-image-min.jpeg&f=1&nofb=1&ipt=e6aa1817917c5033af59e2d6466882d047020b4e4c9e663ef91589978ce9b792&ipo=images');
+    background-size: cover;
+    background-position: center;
+}
+
+.pic4{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pandasecurity.com%2Fen%2Fmediacenter%2Fsrc%2Fuploads%2F2020%2F11%2Fpandasecurity-starlink.jpg&f=1&nofb=1&ipt=e301bcf91fd3d9827e50c924fc718cea12137177a68f82f24539ab6fa4dae638&ipo=images');
+    background-size: cover;
+    background-position: center;
+}
+
+.row h2{
+ margin-top: 10px;
+ padding-left: 5px;
+    
+    
+}
+
+.row p{
+
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+ h1{
+    margin: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.para{
+    padding-left: 55px;
+}
+
+/* Contact Section */
+
+.contact-row{
+    display: flex;
+}
+
+
+.input{
+    display: flex;
+    height: 50px;
+    width: 650px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-left:10px;
+
+}
+
+button{
+
+    height: 50px;
+    width: 100px;
+    display: block;
+    margin-left: 10px;
+}
+
+.form
+{
+    justify-items: end;
+    margin-top:80px;
+    margin-left: 400px;
+}
+
+.left p{
+    margin: 10px;
+    margin-left:50px ;
+}
+
+
+.gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.input:hover{
+
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+textarea:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.row:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    border: 2px solid white;
+    border-radius: 22px;
+
+}
+
+nav li:hover{
+    cursor: pointer;
+    transform:scale(1.09);
+}
+
